@@ -1,0 +1,41 @@
+accounts:
+  css-path: html body ytd-app div#content.style-scope.ytd-app div#masthead-container.style-scope.ytd-app ytd-masthead#masthead.masthead-finish div#container.style-scope.ytd-masthead div#end.style-scope.ytd-masthead div#buttons.style-scope.ytd-masthead ytd-topbar-menu-button-renderer.style-scope.ytd-masthead button#avatar-btn.style-scope.ytd-topbar-menu-button-renderer yt-img-shadow.style-scope.ytd-topbar-menu-button-renderer.no-transition img#img.style-scope.yt-img-shadow #CSS path of the account image. Not necessarily need to change this. 
+  
+  
+  "@account-id": # account id of the yt account
+    img: url # full url of profile image 
+    name: name # name of the yt account
+    account-id: "@account-id" # account id of the yt account
+    
+  "@account-id": # account id of the yt account
+    img: url # full url of profile image 
+    name: name # name of the yt account
+    account-id: "@account-id" # account id of the yt account
+    
+   "@account-id": # account id of the yt account
+    img: url # full url of profile image 
+    name: name # name of the yt account
+    account-id: "@account-id" # account id of the yt account
+    
+   "@account-id": # account id of the yt account
+    img: url # full url of profile image 
+    name: name # name of the yt account
+    account-id: "@account-id" # account id of the yt account
+    
+   empty: # if image is not loaded or empty.  Not necessarily need to change this.
+    img: ""
+    name: empty
+    accouint-id: empty
+    
+no-login: # if not logged in.  Not necessarily need to change this.
+  css-path: html body ytd-app div#content.style-scope.ytd-app div#masthead-container.style-scope.ytd-app ytd-masthead#masthead.masthead-finish div#container.style-scope.ytd-masthead div#end.style-scope.ytd-masthead div#buttons.style-scope.ytd-masthead ytd-button-renderer.style-scope.ytd-masthead yt-button-shape a.yt-spec-button-shape-next.yt-spec-button-shape-next--outline.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--enable-backdrop-filter-experiment div.yt-spec-button-shape-next__button-text-content span.yt-core-attributed-string.yt-core-attributed-string--white-space-no-wrap:has-text("Sign in") # CSS path of the login button if not logged in.  Not necessarily need to change this. 
+  no-login:
+    name: no-login
+    account-id: no-login
+  
+whole: # applied to whole youtube.  Not necessarily need to change this.
+  css-path: ""
+  whole:
+    name: whole
+    accound-id: whole
+  

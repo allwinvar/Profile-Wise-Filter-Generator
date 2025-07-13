@@ -1,0 +1,82 @@
+---
+whole:
+  "whole":
+    selector: html body ytd-app div#content.style-scope.ytd-app ytd-page-manager#page-manager.style-scope.ytd-app ytd-browse.style-scope.ytd-page-manager ytd-two-column-browse-results-renderer.style-scope.ytd-browse.grid.grid-disabled div#primary.style-scope.ytd-two-column-browse-results-renderer
+    domain: www.youtube.com
+    comment: block all video suggestions  in the homepage
+    account-id: "whole"
+    name: whole
+
+---
+cosmetic-filters:
+  "@account-id":
+    selector: html body ytd-app div#content.style-scope.ytd-app ytd-page-manager#page-manager.style-scope.ytd-app ytd-browse.style-scope.ytd-page-manager ytd-two-column-browse-results-renderer.style-scope.ytd-browse.grid.grid-disabled div#primary.style-scope.ytd-two-column-browse-results-renderer
+    domain: www.youtube.com
+    comment: block all video suggestions  in the homepage
+    account-id: "@account-id"
+    name: name
+
+---
+no-login:
+  "no-login":
+    selector: html body ytd-app div#content.style-scope.ytd-app ytd-page-manager#page-manager.style-scope.ytd-app ytd-watch-flexy.style-scope.ytd-page-manager.watch-root-element.hide-skeleton div#columns.style-scope.ytd-watch-flexy div#secondary.style-scope.ytd-watch-flexy
+    domain: www.youtube.com
+    comment: block related videos in the video playback
+    account-id: "no-login"
+    name: no-login
+
+
+
+---
+no-login:
+  "no-login":
+    selector: html body ytd-app div#content.style-scope.ytd-app ytd-page-manager#page-manager.style-scope.ytd-app ytd-watch-flexy.style-scope.ytd-page-manager.watch-root-element.hide-skeleton div#columns.style-scope.ytd-watch-flexy div#primary.style-scope.ytd-watch-flexy div#primary-inner.style-scope.ytd-watch-flexy div#below.style-scope.ytd-watch-flexy ytd-comments#comments.style-scope.ytd-watch-flexy
+    domain: www.youtube.com
+    comment: block comments in the video playback
+    account-id: "no-login"
+    name: no-login
+
+---
+cosmetic-filters:
+  "@account-id":
+    selector: html body ytd-app div#content.style-scope.ytd-app ytd-page-manager#page-manager.style-scope.ytd-app ytd-watch-flexy.style-scope.ytd-page-manager.watch-root-element.hide-skeleton div#columns.style-scope.ytd-watch-flexy div#primary.style-scope.ytd-watch-flexy div#primary-inner.style-scope.ytd-watch-flexy div#below.style-scope.ytd-watch-flexy ytd-comments#comments.style-scope.ytd-watch-flexy
+    domain: www.youtube.com
+    comment: block comments in the video playback
+    account-id: "account-id"
+    name: name
+
+
+
+
+---
+cosmetic-filters:
+  "@account-id":
+    selector: html body ytd-app div#content.style-scope.ytd-app ytd-page-manager#page-manager.style-scope.ytd-app ytd-watch-flexy.style-scope.ytd-page-manager.watch-root-element.hide-skeleton div#columns.style-scope.ytd-watch-flexy div#secondary.style-scope.ytd-watch-flexy div#secondary-inner.style-scope.ytd-watch-flexy div#related.style-scope.ytd-watch-flexy
+    domain: www.youtube.com
+    comment: block related videos in the video playback
+    account-id: "@account-id"
+    name: name
+
+
+
+
+
+
+
+---
+ cosmetic-filters:
+  "@account-id":
+    selector: html body ytd-app div#content
+    domain: www.youtube.com
+    comment: comment for this account
+    account-id: "@account-id"
+    name: name
+---
+ cosmetic-filters:
+  "@account-id":
+    selector: html body ytd-app div#content
+    domain: www.youtube.com
+    comment: comment for  this account
+    account-id: "@account-id"
+    name: name
+
