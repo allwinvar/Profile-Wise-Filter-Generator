@@ -16,6 +16,16 @@ blocklists_file_nologin=build_nologin_lists(youtube_accounts,blocklists)
 blocklists_file_whole= build_whole_lists(youtube_accounts, blocklists)				
 final= blocklists_file_accounts	+ blocklists_file_nologin + blocklists_file_whole
 				
+with open('accounts.txt','w') as f:
+	f.writelines(blocklists_file_accounts)
+	
+with open('nologin.txt','w') as f:
+	f.writelines(blocklists_file_nologin)
+
+
+with open('whole.txt','w') as f:
+	f.writelines(blocklists_file_whole)
+
 
 with open('blocklists.txt','w') as f:
 	f.writelines(final)
